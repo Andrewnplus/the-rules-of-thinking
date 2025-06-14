@@ -1,0 +1,15 @@
+{
+  "name": "財富的法則",
+  "short_name": "財富的法則",
+  "start_url": "/the-rules-of-thinking/",
+  "scope": "/the-rules-of-thinking/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/the-rules-of-thinking/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

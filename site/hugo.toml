@@ -1,0 +1,29 @@
+baseURL = "http://localhost/"
+languageCode = 'zh'
+title = "財富的法則"
+enableGitInfo = true
+bookCollapseSection = true
+
+[module]
+# 先給本站一個名字（可隨意，最好用未來的 GitHub URL）
+path = "github.com/andrewnplus/the-rules-of-thinking"
+
+[[module.imports]]
+path = "github.com/alex-shpak/hugo-book"
+# 可加 `disable = false` 來切換多主題；預設就載入
+
+[params]
+BookSection = "docs"
+BookTheme = "auto"
+BookLogo = "logo.png"
+BookCollapseSection = true
+
+
+[markup.highlight]
+style = "nord"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser]
+attribute = true

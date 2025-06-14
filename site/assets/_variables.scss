@@ -1,0 +1,39 @@
+$light-gray-100: #f8f9fa !default;
+$light-gray-200: #e9ecef !default;
+$light-gray-500: #adb5bd !default;
+$light-link:     #0055bb !default;
+$light-link-vis: #8440f1 !default;
+$light-bg:       white !default;
+$light-text:     black !default;
+$light-icon:     none !default;
+
+$dark-gray-100: rgba(255,255,255,.1) !default;
+$dark-gray-200: rgba(255,255,255,.2) !default;
+$dark-gray-500: rgba(255,255,255,.5) !default;
+$dark-link:      #84b2ff !default;
+$dark-link-vis:  #b88dff !default;
+$dark-bg:        #343a40 !default;
+$dark-text:      #e9ecef !default;
+$dark-icon:      brightness(0) invert(1) !default;
+
+:root[data-theme="light"] {
+  --gray-100:           #{$light-gray-100};
+  --gray-200:           #{$light-gray-200};
+  --gray-500:           #{$light-gray-500};
+  --color-link:         #{$light-link};
+  --color-visited-link: #{$light-link-vis};
+  --body-background:    #{$light-bg};
+  --body-font-color:    #{$light-text};
+  --icon-filter:        #{$light-icon};
+}
+
+:root[data-theme="dark"] {
+  --gray-100:           #{$dark-gray-100};
+  --gray-200:           #{$dark-gray-200};
+  --gray-500:           #{$dark-gray-500};
+  --color-link:         #{$dark-link};
+  --color-visited-link: #{$dark-link-vis};
+  --body-background:    #{$dark-bg};
+  --body-font-color:    #{$dark-text};
+  --icon-filter:        #{$dark-icon};
+}

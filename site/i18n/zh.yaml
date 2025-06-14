@@ -1,0 +1,12 @@
+- id: Search
+  translation: 搜尋
+
+- id: Expand
+  translation: 展開
+
+- id: bookSearchConfig
+  translation: |
+    {
+      cache: true,
+      index: ["title",  "tags"]
+    }
